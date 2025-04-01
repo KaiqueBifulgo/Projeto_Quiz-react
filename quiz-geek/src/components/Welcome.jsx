@@ -1,3 +1,6 @@
+import { useContext } from "react"
+import { QuizContext } from "../context/quiz"
+
 import "./Welcome.css"
 
 import imgInicial from "../img/Imagem-inicial.jpg"
