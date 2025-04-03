@@ -1,6 +1,6 @@
 import './App.css'
 
-import { useContext } from 'react'
+import { useContext, useEffect } from 'react'
 import { QuizContext } from './context/quiz'
 
 
@@ -9,6 +9,12 @@ import Question from './components/Question'
 
 function App() {
   const [quizState, dispatch] = useContext(QuizContext) 
+
+
+  // EMBARALHAR PERGUNTAS NO COMEÇO DO QUIZ
+  useEffect(() => {
+    dispatch({ type:" ReorderQuestions"})
+  }, [])
 
   return (
     <div className='App'>
