@@ -13,8 +13,8 @@ function App() {
 
   // EMBARALHAR PERGUNTAS NO COMEÇO DO QUIZ
   useEffect(() => {
-    dispatch({ type:" ReorderQuestions"})
-  }, [])
+    dispatch({ type:"Reorder_Questions"});
+  },[])
 
   return (
     <div className='App'>
