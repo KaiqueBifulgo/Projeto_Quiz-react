@@ -6,6 +6,7 @@ import { QuizContext } from './context/quiz'
 
 import Welcome from './components/Welcome'
 import Question from './components/Question'
+import GameOver from './components/GameOver'
 
 function App() {
   const [quizState, dispatch] = useContext(QuizContext) 
@@ -21,6 +22,7 @@ function App() {
       <h1>Quiz geek</h1>
       {quizState.gameStage === "Start" && <Welcome />}
       {quizState.gameStage === "Playing" && <Question />}
+      {quizState.gameStage === "End" && <GameOver/>}
     </div>
   )
 }
