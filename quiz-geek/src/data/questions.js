@@ -27,7 +27,7 @@ const data = [
         "Central city", 
         "Star city"
     ],
-    answer: "Gotham cty",
+    answer: "Gotham city",
   },
   {
     question: "Nome do protagonista de Shingeki no kyojin?",
