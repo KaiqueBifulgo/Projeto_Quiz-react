@@ -3,7 +3,7 @@ import { QuizContext } from "../context/quiz"
 
 import "./GameOver.css"
 
-// Import img
+import endImage from "../img/imagem-final.jpeg"
 
 const GameOver = () => {
 
@@ -14,7 +14,7 @@ const GameOver = () => {
         <h2> Fim de Jogo! </h2>
         <p>Sua pontuação é: {quizState.score}</p>
         <p>Voçẽ acertou {quizState.score} de {quizState.questions.length} Perguntas!</p>
-        {/* <img src="" alt="" /> */}
+        <img src={endImage} alt="Jogo termianado" id="end-Image"/>
         <button onClick={() => dispatch({type: "New_Game"})}>Reiniciar quiz</button>
     </div>
   )
