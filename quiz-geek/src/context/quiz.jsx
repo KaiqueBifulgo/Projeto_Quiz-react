@@ -1,9 +1,9 @@
 import { Children, createContext, useReducer } from "react";
 
-import questions from "../data/questions"
+import questions from "../data/questions_complete"
 
 
-const stages = ["Start", "Playing", "End"]
+const stages = ["Start", "Category", "Playing", "End"]
 
 const inicialState = {
     gameStage: stages[0],
