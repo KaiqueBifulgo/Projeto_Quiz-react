@@ -51,20 +51,34 @@ const data = [
     category: "Animes",
     questions: [
       {
-        question: "Qual regra altera a cor de um elemento?",
-        options: ["color", "background-color", "font-size", "transition"],
-        answer: "color",
-        tip: "Cor em inglês",
+        question: "Qual o nome da fruta que Barba-Branca comeu em One Piece?",
+        options: [
+          "Gura Gura no mi", 
+          "Hito Hito no mi", 
+          "Ope Ope no mi", 
+          "Mera Mera no mi"
+        ],
+        answer: "Gura Gura no mi",
       },
       {
-        question: "Para aumentar a fonte de um elemento utilizamos:",
-        options: ["font", "text-transform", "font-size", "hover"],
-        answer: "font-size",
+        question: "Qual o nome do segundo JOJO?",
+        options: [
+          "Jotaro", 
+          "Jonathan", 
+          "Joseph", 
+          "Josuke"
+        ],
+        answer: "Joseph",
       },
       {
-        question: "A posição que deixa um elemento fixo é a:",
-        options: ["static", "absolute", "fixed", "relative"],
-        answer: "fixed",
+        question: "Qunatos sacrificios exisem em Fullmetal Alchemist?",
+        options: [
+          "2", 
+          "5", 
+          "10", 
+          "7"
+        ],
+        answer: "5",
       },
     ],
   },
