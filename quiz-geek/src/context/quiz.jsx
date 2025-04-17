@@ -23,8 +23,25 @@ const quizReducer = (state, action) => {
             };
         }
 
+
+        case "Start_Game": {
+            let quizQuestions = null;
+
+            state.questions.forEach((question) => {
+                if (questions.category === action.payload) {
+                    quizQuestions = question.questions
+                }
+            })
+
+            return {
+                ...state,
+                questions: quizQuestions,
+                gameStage: stages[2]
+            }
+        }
+
         case "Reorder_Questions": {
-            const reorder = [...questions].sort(() => {
+            const reorder = state.questions.sort(() => {
                 return Math.random() - 0.5;
             });
             
@@ -46,7 +63,7 @@ const quizReducer = (state, action) => {
             return {
                 ...state,
                 currentQuestion: nextQuestion,
-                gameStage: endGame ? stages[2] : state.gameStage,
+                gameStage: endGame ? stages[3] : state.gameStage,
                 answerSelected: false,
             }
         }

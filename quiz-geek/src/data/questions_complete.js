@@ -86,35 +86,44 @@ const data = [
     category: "Bandas",
     questions: [
       {
-        question: "O que é Vanilla JavaScript?",
+        question: "Qual o nome do vocalista da banda Stone Sour?",
         options: [
-          "JavaScript puro",
-          "Uma biblioteca JavaScript",
-          "Um framework JavaScript",
-          "Um compilador de JavaScript",
+          "Bruce Dickson",
+          "Corey Taylor",
+          "Tobias Forge",
+          "Marko Saaresto",
         ],
-        answer: "JavaScript puro",
+        answer: "Corey Taylor",
       },
       {
-        question: "Com qual instrução declaramos uma constante em JavaScript?",
-        options: ["const", "let", "var", "define"],
-        answer: "const",
+        question: "Em que ano a banda Iron Maiden foi fundada?",
+        options: [
+          "1980", 
+          "2000", 
+          "1975",
+           "2002"
+          ],
+        answer: "1975",
       },
       {
-        question: "Qual dos tipos de dado a seguir não existe em JavaScript?",
-        options: ["string", "number", "boolean", "float"],
-        answer: "float",
+        question: "Qual Banda fez varias musicas para o jogo Alan Wake 1 e 2?",
+        options: [
+          "Poests of the Fall", 
+          "Avenged Sevenfold", 
+          "Metalica", 
+          "Guns N Roses"
+        ],
+        answer: "Poets of the Fall",
       },
       {
-        question: "Qual dos métodos a seguir seleciona um elemento?",
-        options: ["querySelector", "parseInt", "sort", "reduce"],
-        answer: "querySelector",
-      },
-      {
-        question:
-          "Qual destas propriedades da a quantidade de elementos de um array?",
-        options: ["qty", "length", "items", "index"],
-        answer: "length",
+        question: "Qual o nome do mascote do Iron Maiden?",
+        options: [
+          "Diorno", 
+          "Eddie", 
+          "Ezio", 
+          "Dante"
+        ],
+        answer: "Eddie",
       },
     ],
   },
@@ -122,19 +131,24 @@ const data = [
     category: "Games",
     questions: [
       {
-        question: "O que é Vanilla JavaScript?",
+        question: "Qual o none do protagosnista do Assassins creed 2?",
         options: [
-          "JavaScript puro",
-          "Uma biblioteca JavaScript",
-          "Um framework JavaScript",
-          "Um compilador de JavaScript",
+          "Connor",
+          "Edward Kenway",
+          "Arno",
+          "Ezio Auditore",
         ],
-        answer: "JavaScript puro",
+        answer: "Ezio Auditore",
       },
       {
-        question: "Com qual instrução declaramos uma constante em JavaScript?",
-        options: ["const", "let", "var", "define"],
-        answer: "const",
+        question: "Qual o nome da outra dimensão no jogo Alan Wake?",
+        options: [
+          "Lugar Osbcuro", 
+          "Cidade da cinzas", 
+          "Noite Eterna", 
+          "Silent Hill"
+        ],
+        answer: "Lugar Obscuro",
       },
       {
         question: "Qual dos tipos de dado a seguir não existe em JavaScript?",
