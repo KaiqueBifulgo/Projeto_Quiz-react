@@ -14,14 +14,14 @@ const data = [
         tip: "É um caça estrelar",
       },
       {
-        question: "Qual o nome da loja dos gemêos Weasley em Harry Potter?",
+        question: "Qual o nome da loja dos gemêos em Harry Potter?",
         options: [
           "Vallhalla", 
           "Gemialidades Weasley", 
           "Travessa do tranco", 
           "New Gryffindor"
         ],
-        answer: "Gemialidades Wealey",
+        answer: "Gemialidades Weasley",
         tip: "É uma loja dos GEMÊOS",
       },
       {
@@ -71,7 +71,7 @@ const data = [
         answer: "Joseph",
       },
       {
-        question: "Qunatos sacrificios exisem em Fullmetal Alchemist?",
+        question: "Quantos sacrificios exisem em Fullmetal Alchemist?",
         options: [
           "2", 
           "5", 
@@ -108,7 +108,7 @@ const data = [
       {
         question: "Qual Banda fez varias musicas para o jogo Alan Wake 1 e 2?",
         options: [
-          "Poests of the Fall", 
+          "Poets of the Fall", 
           "Avenged Sevenfold", 
           "Metalica", 
           "Guns N Roses"
@@ -131,7 +131,7 @@ const data = [
     category: "Games",
     questions: [
       {
-        question: "Qual o none do protagosnista do Assassins creed 2?",
+        question: "Qual o none do protagonista do Assassins creed 2?",
         options: [
           "Connor",
           "Edward Kenway",
@@ -143,7 +143,7 @@ const data = [
       {
         question: "Qual o nome da outra dimensão no jogo Alan Wake?",
         options: [
-          "Lugar Osbcuro", 
+          "Lugar Obscuro", 
           "Cidade da cinzas", 
           "Noite Eterna", 
           "Silent Hill"

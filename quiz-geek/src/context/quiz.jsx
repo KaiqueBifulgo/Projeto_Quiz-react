@@ -28,7 +28,7 @@ const quizReducer = (state, action) => {
             let quizQuestions = null;
 
             state.questions.forEach((question) => {
-                if (questions.category === action.payload) {
+                if (question.category === action.payload) {
                     quizQuestions = question.questions
                 }
             })
