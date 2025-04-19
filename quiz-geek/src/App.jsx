@@ -13,8 +13,6 @@ function App() {
   const [quizState, dispatch] = useContext(QuizContext) 
 
 
-  // EMBARALHAR PERGUNTAS NO COMEÇO DO QUIZ
-
   return (
     <div className='App'>
       <h1>Quiz geek</h1>

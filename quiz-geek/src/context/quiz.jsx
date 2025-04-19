@@ -11,6 +11,7 @@ const inicialState = {
     currentQuestion: 0,
     score: 0,
     answerSelected: false,
+    help: false,
 }
 
 const quizReducer = (state, action) => {
@@ -65,6 +66,7 @@ const quizReducer = (state, action) => {
                 currentQuestion: nextQuestion,
                 gameStage: endGame ? stages[3] : state.gameStage,
                 answerSelected: false,
+                help: false,
             }
         }
 
@@ -85,8 +87,15 @@ const quizReducer = (state, action) => {
                 ...state,
                 score: state.score + correctAnswer,
                 answerSelected: option,
-            }
+            }    
         }
+
+
+        case "Show_Tip": 
+            return {
+                ...state,
+                help: "tip",
+            }
 
         default:
             return state;    
