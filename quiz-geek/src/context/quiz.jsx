@@ -12,6 +12,7 @@ const inicialState = {
     score: 0,
     answerSelected: false,
     help: false,
+    hideOption: null,
 }
 
 const quizReducer = (state, action) => {
@@ -57,7 +58,7 @@ const quizReducer = (state, action) => {
             const nextQuestion = state.currentQuestion + 1 ;
             let endGame = false;
 
-            if(!questions[nextQuestion]) {
+            if(!state.questions[nextQuestion]) {
                 endGame = true;
             }
             
@@ -96,6 +97,26 @@ const quizReducer = (state, action) => {
                 ...state,
                 help: "tip",
             }
+
+        case "Remove_Option": {
+            const removeOneOption = state.questions[state.currentQuestion]
+
+            let repeat = true;
+            let hideOption
+
+            removeOneOption.options.forEach((option) => {
+                if(option !== removeOneOption.answer && repeat) {
+                    hideOption = option;
+                    repeat= false
+                }
+            })
+
+            return {
+                ...state,
+                hideOption,
+                help: true,
+            }
+        }    
 
         default:
             return state;    

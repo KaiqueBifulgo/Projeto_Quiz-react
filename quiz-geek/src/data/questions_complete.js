@@ -80,6 +80,26 @@ const data = [
         ],
         answer: "5",
       },
+       {
+        question: "Quantos sacrificios exisem em Fullmetal Alchemist?",
+        options: [
+          "2", 
+          "5", 
+          "10", 
+          "7"
+        ],
+        answer: "5",
+      },
+       {
+        question: "Quantos sacrificios exisem em Fullmetal Alchemist?",
+        options: [
+          "2", 
+          "5", 
+          "10", 
+          "7"
+        ],
+        answer: "5",
+      },
     ],
   },
   {

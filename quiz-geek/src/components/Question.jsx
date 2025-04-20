@@ -27,14 +27,17 @@ const Question = () => {
               option={option} 
               key={option} 
               answer={currentQuestion.answer} 
-              selectOption={() => onSelectOption(option)}/>
+              selectOption={() => onSelectOption(option)}
+              hide={quizState.hideOption === option ? "hide" : null}
+              />
            ))}
         </div>
        {!quizState.answerSelected && !quizState.help &&(
         <>
           {currentQuestion.tip && (
-            <button onClick={() => dispatch({type: "Show_Tip"})}>Quer uma Dica/</button>
+            <button onClick={() => dispatch({type: "Show_Tip"})}>Quer uma Dica?</button>
           )}
+          <button onClick={() => dispatch({type: "Remove_Option"})}>Excluir opção!</button>
         </>
        )}
        {!quizState.answerSelected && quizState.help === "tip" && <p>{currentQuestion.tip}</p>}
