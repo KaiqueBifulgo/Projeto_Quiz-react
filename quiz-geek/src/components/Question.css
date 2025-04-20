@@ -18,3 +18,17 @@
     border: 1.5px solid #f8f1f1;
     margin: 1rem;
 }
+
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+
+    #question {
+        max-width: 300px;
+    }
+
+    #question button {
+    margin: 0.5rem;   
+    }
+
+}

@@ -22,3 +22,19 @@
 #category button {
     margin: 1rem;
 }
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+
+    #category {
+        max-width: 100%;
+    }
+
+    #category h2 {
+        margin: 0.5rem;
+    }
+
+    #category img {
+        max-width: 100%;
+    }
+}
