@@ -81,24 +81,24 @@ const data = [
         answer: "5",
       },
        {
-        question: "Quantos sacrificios exisem em Fullmetal Alchemist?",
+        question: "Com quantos anos Itachi se tornou lider da Anbu?",
         options: [
-          "2", 
-          "5", 
-          "10", 
-          "7"
+          "9 Anos", 
+          "7 Anos", 
+          "15 Anos", 
+          "13 Anos"
         ],
-        answer: "5",
+        answer: "13 Anos",
       },
        {
-        question: "Quantos sacrificios exisem em Fullmetal Alchemist?",
+        question: "Qual o nome da Bankai do Byakuya Kuchiki em Bleach?",
         options: [
-          "2", 
-          "5", 
-          "10", 
-          "7"
+          "Kamishini no Yari", 
+          "Hakka no Togame", 
+          "Senbonzakura Kageyoshi", 
+          "Tensa Zangetsu"
         ],
-        answer: "5",
+        answer: "Senbonzakura Kageyoshi",
       },
     ],
   },
@@ -121,7 +121,7 @@ const data = [
           "1980", 
           "2000", 
           "1975",
-           "2002"
+          "2002"
           ],
         answer: "1975",
       },
@@ -171,20 +171,34 @@ const data = [
         answer: "Lugar Obscuro",
       },
       {
-        question: "Qual dos tipos de dado a seguir não existe em JavaScript?",
-        options: ["string", "number", "boolean", "float"],
-        answer: "float",
+        question: "Nome do protagonista de Resident Evil 7?",
+        options: [
+          "Leon", 
+          "Claire", 
+          "Ethan", 
+          "Chris"
+        ],
+        answer: "Ethan",
       },
       {
-        question: "Qual dos métodos a seguir seleciona um elemento?",
-        options: ["querySelector", "parseInt", "sort", "reduce"],
-        answer: "querySelector",
+        question: "Em Hollow Knight qual o nome do lider da famosa troup?",
+        options: [
+          "Grimm", 
+          "Hornet", 
+          "Milla", 
+          "Cornifer"
+        ],
+        answer: "Grimm",
       },
       {
-        question:
-          "Qual destas propriedades da a quantidade de elementos de um array?",
-        options: ["qty", "length", "items", "index"],
-        answer: "length",
+        question: "Em Dark Souls qual o nome do lobo de Artorias?",
+        options: [
+          "Sif", 
+          "Gwyn", 
+          "Solaire", 
+          "Sigmeyr"
+        ],
+        answer: "Sif",
       },
     ],
   },
